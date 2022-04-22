@@ -1,0 +1,236 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy-bold.woff) format('woff'),
+         url(../fonts/gilroy-bold.woff2) format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy-medium.woff) format('woff'),
+         url(../fonts/gilroy-medium.woff2) format('woff2');
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy-regular.woff) format('woff'),
+         url(../fonts/gilroy-regular.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    max-width: 100vh;
+    background-color: var(--grey-phone);
+
+}
+:root {
+    --grey-phone: #E5E5E5;
+    --white: #FFFFFF;
+    --green: #188274;
+    --light-grey: #989898;;
+    --gap: 20px;
+    --col-gap: 48px;
+}
+.top_reg {
+    background-color: var(--white);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+}
+label {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+
+    color: #000000;
+
+    opacity: 0.4;
+}
+.btn {
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    color: #E5E5E5;
+    background: linear-gradient(112.45deg, #0C7264 0%, #188274 100%);   
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px; 
+    
+}
+.nav-link {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #919191;;
+}
+.nav-link:active{
+    text-decoration-color: #000;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;;
+}
+
+/* main */
+.search-box {
+    flex-direction: row;
+    width: 400px;
+    height: 60px;
+    background-color: #EFEEEE;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.search-box input {
+    flex: 1;
+    height: 40px;
+    background-color: none;
+}
+.fa {
+    font-size: 28px;
+    color: #000;
+}
+
+/* main */
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+section {
+    padding: 50px 0;
+
+}
+a {
+    color: #111;
+}
+
+a:hover {
+    color: #555;
+}
+
+/* Header */
+.navbar-light .navbar-nav .nav-link {
+    color: #111;
+    font-weight: 500;
+    
+}
+/* Header */
+
+/* Profile Page */
+
+
+.profile-top {
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    background-color: var(--grey-phone);
+}
+.profile-link {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    color: var(--green);
+}
+.prof_text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    margin-top: 20px;
+
+
+}
+.logo_prof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.prof_data {
+    background-color: var(--grey-phone);
+}
+/* Profile Page */
+
+/* Cart Page */
+
+.cart_nav {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+} 
+
+.back-link {
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 22px;
+    color: var(--green);
+    margin-top: 66px;
+}
+
+.cart_text {
+    
+    margin-top: 70px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.text-price {
+    color: var(--green);
+}
+.btn-close {
+    color: var(--green);
+    width: 5px;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.card-link {
+    text-decoration: none;
+}
+.card {
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+
+}
+.input-number {
+    width: 25px;
+    height: 15px;
+}
+/* Cart Page */
